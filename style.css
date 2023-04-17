@@ -45,20 +45,6 @@ input[type="text"] {
   height: 25px;
 }
 
-/* Apply specific styles for iPhone X/XS */
-@media only screen 
-  and (device-width: 375px) 
-  and (device-height: 812px) 
-  and (-webkit-device-pixel-ratio: 3) {
-    
-  input[type="text"] {
-    width: 80%;
-    height: 40px;
-    font-size: 16px;
-  }
-  
-}
-
 }
 button {
   margin-left: 10px;
